@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data structures</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+ 
+   
+
+<div class="Lists" style="border: 10px; border: solid;">
+    <p> liste 1 : [3,1,7,9]
+    </p>
+    <p> liste 2 : [2,4,1,9,3]</p>
+    <h4> With lists</h4>
+    <button class="btn btn-primary" type="button" onclick="SumDistinct()"> Somme distinct </button>
+    <label name=""  cols="30" rows="2" style="margin-top: 50px;">                  Solution is :            </label>
+    <label for="" id="affiche"> </label>
+</div>
+
+<div class="hash" style="border: 10px; border: solid; margin-top: 10px;"> 
+    <br><br>
+    <p> Object : {
+        3:2,
+        1:2,
+        7:1,
+        9:2,
+        2:1,
+        4:1,
+    }</p>
+    <h4> With Hash table</h4>
+    <button class="btn btn-primary" type="button" onclick="SumObj()"> Somme distinct (hash) </button>
+    <label name=""  cols="30" rows="2" style="margin-top: 50px;">                  Solution is :            </label>
+    <label for="" id="affiche2"> </label>
+</div>
+
+
+<div class="OverlapList">
+    <p>  Set3 = [12, 13, 6, 10] <br>
+         Set4 = [13, 10, 16, 15]</p>
+    <button class="btn btn-primary" type="button" onclick="SumOverlapping()"> Sum common elements </button>
+    <label name=""  cols="30" rows="2" style="margin-top: 50px;">                  Solution is :            </label>
+    <label for="" id="affiche3"> </label>
+</div>
+
+<div class="OverlapHash">
+    <br><br>
+    <p> Object 2 : {
+        12 : 1,
+        13 : 2,
+        6 : 1,
+        10 : 2,
+        16 : 1,
+        15 : 1,
+      
+      }</p>
+    <button class="btn btn-primary" type="button" onclick="SumOverlapObj()"> Sum common (hash version) </button>
+    <label name=""  cols="30" rows="2" style="margin-top: 50px;">                  Solution is :            </label>
+    <label for="" id="affiche4"> </label>
+<br><br><br>
+    <h6> L'important c'est le résultat </h6>
+</div>
+
+    <script src="/Script/script.js"></script>
+</body>
+</html>
